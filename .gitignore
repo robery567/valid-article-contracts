@@ -1,0 +1,15 @@
+node_modules
+/dist/*
+!/dist/.gitkeep
+/build/*
+!/build/.gitkeep
+.env
+devops/*
+yarn-error.log
+yarn.lock
+.idea/*
+*.bin
+*.abi
+contracts/*
+truffle/truffle-config.js
+truffle/build

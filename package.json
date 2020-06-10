@@ -1,0 +1,24 @@
+{
+  "name": "valid-article-backend",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./build/bin/WebService.js",
+  "dependencies": {
+    "truffle": "^5.1.24",
+    "@truffle/hdwallet-provider": "1.0.33"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.8.3"
+  },
+  "pkg": {
+    "targets": [
+      "node13"
+    ]
+  },
+  "scripts": {
+    "make:contracts": "cd truffle && truffle build && truffle migrate --network kovan"
+  }
+}
